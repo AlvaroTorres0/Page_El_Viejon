@@ -1,0 +1,92 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+header{
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    font-size: 15px;
+    height: 80px;
+    color: #000000;
+    background-color: #febaad;
+}
+
+/*? Modificamos los elementos del nav*/
+.nav__elements li{
+    margin-left: 90px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 90px;
+}
+.nav__elements img{
+    position: absolute;
+    top: 9px;
+    left: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.formulario{
+    margin-left: 350px;
+    width: 100%;
+    margin-top: 80px;
+    float: left;
+    background-color: #ffe4e1;
+    height: 730px;
+    width: 800px;
+}
+.formulario h1{
+    text-align: center;
+}
+.datos{
+    margin-top: 10px;
+}
+.datos input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    display: inline-flex;
+}
+.datos textarea{
+    margin-left: 150px;
+}
+
+.sabores input[type=checkbox] {
+    transform: scale(1.5);
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.sabores{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+.adornos{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.adornos input[type=checkbox] {
+    transform: scale(1.5);
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#boton{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 15px;
+    width: 200px;
+    line-height: 2.8;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #ffb6c1;
+    border: none;
+}

@@ -1,0 +1,207 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+header{
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    font-size: 15px;
+    height: 80px;
+    color: #000000;
+    background-color: #febaad;
+}
+
+/*? Modificamos los elementos del nav*/
+.nav__elements li{
+    margin-left: 90px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.nav__elements img{
+    position: absolute;
+    top: 9px;
+    left: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+
+/*? Modificamos la parte de la izquierda del primer bloque*/
+.info{
+    margin-top: 100px;
+    text-align: center;
+    float: left;
+    width: 755px;
+    height: 705px;
+}
+.info h1{
+    margin-top: 250px;
+    font-size: 60px;
+    font-weight: bold 700;
+}
+.info p{
+    margin-left: -175px;
+    font-size: 20px;
+    color: #6e747f;
+    font-family: 'Mulish', sans-serif;;
+}
+.info img{
+    margin-left: 60px;
+    height: 30px;
+    width: 30px;
+}
+
+.info input{
+    margin-top: 40px;
+    width: 200px;
+    line-height: 2.8;
+    color: #000000;
+    border-radius: 10px;
+    margin-left: -240px;
+    background-color: #febaad;
+    border: none;
+}
+
+
+/*? Modificamos la parte derecha del primer bloque*/
+.imagen{
+    display: inline-block;
+    width: 765px;
+    height: 705px;
+}
+.imagen img{
+    margin-top: 270px;
+    margin-left: 85px;
+    border-radius: 20px;
+    height: 350px;
+    width: 600px;
+}
+
+
+/*? Estilos generales pasteles*/
+.parte2 h2{
+    padding-top: 20px;
+    height: 80px;
+    background-color: #fff0f5;
+    margin-bottom: 30px;
+    text-align: center;
+    clear: both;
+    font-size: 40px;
+}
+
+.pasteles__article{
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+
+.pasteles__section img{
+    height: 230px;
+    width: 330px;
+    border-radius: 10px;
+}
+
+
+/*? Estilos pasteles de arriba*/
+.pastelesSuperior{
+    width: 100%;
+    display: inline-flex;
+}
+.pastelesSuperior article{
+    margin-left: 80px;
+}
+
+
+/*? Estilos pasteles de abajo*/
+.pastelesInferior{
+    width: 100%;
+    display: inline-flex;
+}
+.pastelesInferior article{
+    margin-left: 240px;
+}
+
+
+
+
+/*? Estilos adornos*/
+.parte3{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fff0f5;
+    text-align: center;
+    margin-top: 40px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+#section{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.adornos img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+.adornos article{
+    margin-top: 20px;
+}
+
+
+/*? Estilos adornos frutales*/
+.adornosFrutales{
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: #ffe4e1;
+    left: 100px;
+    position: absolute;
+    display: inline-block
+}
+
+/*? Estilos adornos extra*/
+.adornos_extra{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #ffe4e1;
+    left: 605px;
+    display: inline-block;
+}
+
+/*? Estilos adornos extra*/
+.mensajesFormas{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #ffe4e1;
+    left: 1100px;
+    display: inline-block;
+}
+
+/*? Estilos footer*/
+.footer{
+    margin-top: 826px;
+    background-color: #fff0f5;
+    height: 150px;
+    width: 100%;
+}
+.footer footer{
+    display: inline-flex;
+}
+.footer p{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+
+.logos{
+    margin-top: 30px;
+    text-align: center;
+}
+.logos img{
+    margin-right: 40px;
+    height: 35px;
+    width: 35px;
+}
