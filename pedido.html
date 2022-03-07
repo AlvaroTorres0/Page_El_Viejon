@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilosPedido.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav__elements">
+            <img src="icon/icono.png" alt="Logo">
+            <ul>
+                <li>Inicio</li>
+                <li>Sabores</li>
+                <li>Adornos</li>
+                <li>Conoce más</li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="formulario">
+        <h1>Nuevo pedido</h1>
+        <div class="formulario__div">
+            <form>
+                <div class="datos">
+                    <input type="text" placeholder="Nombre"><br>
+                    <input type="number" placeholder="Número telefónico"><br>
+                    <input type="text" placeholder="Correo electrónico"><br>   
+                    <textarea name="" id="" cols="54" rows="10" placeholder="Descripción de su pastel"></textarea>   
+
+                </div>        
+
+                <div class="sabores">
+                    <h2>Elige tu sabor</h2>
+                    <label><input type="checkbox" id="cbox1"> Cheesecake</label>
+                    <label><input type="checkbox" id="cbox2"> Tiramisú</label>
+                    <label><input type="checkbox" id="cbox3"> Pastel de 3 leches</label>
+                    <label><input type="checkbox" id="cbox4"> Tarta de Santiago</label>
+                    <label><input type="checkbox" id="cbox5"> Tarta Ópera</label>
+                </div>
+
+                <div class="adornos">
+                    <h2>Elige los adornos</h2>
+                    <label><input type="checkbox" id="cbox1"> Cheesecake</label>
+                    <label><input type="checkbox" id="cbox2"> Tiramisú</label>
+                    <label><input type="checkbox" id="cbox3"> Pastel de 3 leches</label>
+                    <label><input type="checkbox" id="cbox4"> Tarta de Santiago</label>
+                    <label><input type="checkbox" id="cbox5"> Tarta Ópera</label>
+                </div>
+
+                <input id="boton" type="button" value="Realizar pedido">
+            </form>    
+                
+            
+        </div>
+    </div>
+    
+</body>
+</html>
